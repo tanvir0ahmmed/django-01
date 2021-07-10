@@ -68,10 +68,12 @@ MIDDLEWARE = [
 u'https://react-001ta.herokuapp.com',
 u'https://devcenter.heroku.com' """
 
-CORS_ORIGIN_WHITELIST = (
+CORS_ORIGIN_ALLOW_ALL = True
+
+""" CORS_ORIGIN_WHITELIST = (
     'https://react-001ta.herokuapp.com'
     
-)
+) """
 
 CORS_ALLOW_HEADERS = [
     'accept',
