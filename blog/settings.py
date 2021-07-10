@@ -60,14 +60,14 @@ MIDDLEWARE = [
 
 #CORS_ALLOW_ALL_ORIGINS=True
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000/",
-    "https://react-001ta.herokuapp.com/"
-]
+""" CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000"
+] """
+#'http://localhost:3000'
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
-    'https://react-001ta.herokuapp.com/'
+    'https://react-001ta.herokuapp.com'
 )
+
 CORS_ALLOW_HEADERS = [
     'accept',
     'accept-encoding',
