@@ -24,8 +24,8 @@ SECRET_KEY = 'jiy9g^%j@_ey9aomtm9glj&m^qpf+0z-^ov3xfnd=qy5&tfq*m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['django-rest-api-01.herokuapp.com']
+#'django-rest-api-01.herokuapp.com'
+ALLOWED_HOSTS = ['https://devcenter.heroku.com']
 
 
 # Application definition
@@ -64,8 +64,13 @@ MIDDLEWARE = [
     "http://localhost:3000"
 ] """
 #'http://localhost:3000'
+""" u'http://localhost:3000',
+u'https://react-001ta.herokuapp.com',
+u'https://devcenter.heroku.com' """
+
 CORS_ORIGIN_WHITELIST = (
     'https://react-001ta.herokuapp.com'
+    
 )
 
 CORS_ALLOW_HEADERS = [
