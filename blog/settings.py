@@ -72,9 +72,9 @@ u'https://devcenter.heroku.com'
 """
 
 #CORS_ORIGIN_ALLOW_ALL = True
-
+#'http://localhost:3000'
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000'
+    'https://react-001ta.herokuapp.com'
 )
 
 CORS_ALLOW_HEADERS = [
