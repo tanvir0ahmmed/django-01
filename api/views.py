@@ -12,22 +12,22 @@ from rest_framework import permissions, viewsets
 from rest_framework.response import Response
 from django.contrib.auth import authenticate  # , login, logout
 
-from django.core.exceptions import ObjectDoesNotExist
+#from django.core.exceptions import ObjectDoesNotExist
 
 from django.http import QueryDict
 from django.http import Http404
 #from django.contrib.auth.decorators import login_required
 #from rest_framework.decorators import action
-from django.http import HttpResponse, HttpResponseRedirect
+#from django.http import HttpResponse, HttpResponseRedirect
 
-import os
+""" import os
 import requests
 import jwt
-import hashlib
+import hashlib """
 from urllib.parse import urlencode
 
-import random
-import string
+""" import random
+import string """
 
 """ 
 class Callback(APIView):
