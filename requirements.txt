@@ -102,3 +102,4 @@ Werkzeug==0.16.1
 whitenoise==5.2.0
 wrapt==1.12.1
 wsgi-request-logger==0.4.6
+jwt==1.2.0
