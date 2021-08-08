@@ -80,6 +80,7 @@ u'https://devcenter.heroku.com'
 #'https://react-001ta.herokuapp.com'
 CORS_ORIGIN_WHITELIST = (
     'localhost:3000',
+    'react-001ta.herokuapp.com',
     'accounts.google.com',
     'accounts.google.com/o/oauth2/v2'
     
