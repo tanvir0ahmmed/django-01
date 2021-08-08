@@ -64,18 +64,27 @@ MIDDLEWARE = [
 """ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ] """
+
+''' CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000"
+] '''
 #'http://localhost:3000'
 """ u'http://localhost:3000',
 u'https://react-001ta.herokuapp.com',
 u'https://devcenter.heroku.com' 
 'https://react-001ta.herokuapp.com'
 """
-
 #CORS_ORIGIN_ALLOW_ALL = True
 #'http://localhost:3000'
+#'https://react-001ta.herokuapp.com'
 CORS_ORIGIN_WHITELIST = (
-    'https://react-001ta.herokuapp.com'
+    'localhost:3000',
+    'accounts.google.com',
+    'accounts.google.com/o/oauth2/v2'
+    
 )
+
 
 CORS_ALLOW_HEADERS = [
     'accept',
@@ -87,6 +96,15 @@ CORS_ALLOW_HEADERS = [
     'user-agent',
     'x-csrftoken',
     'x-requested-with',
+]
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
 ]
 
 """ CORS_ALLOW_METHODS = [

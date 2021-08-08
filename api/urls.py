@@ -15,5 +15,10 @@ urlpatterns = [
     path('logout/',views.LogOutViewSet.as_view()),
     path('articles/',views.ArticlesView.as_view()),
     path('articles/<int:pk>/',views.ArticlesView.as_view()),
+    path('check/',views.CheckUser.as_view()),
+    #path('glogin/',views.Glogin.as_view()),
+    #path('test/',views.Test.as_view()),
+    #path('callback/',views.Callback.as_view(), name='googleauth_callback'),
+
     #path('articales/',views.ArticlesViewSet.as_view())
 ]
